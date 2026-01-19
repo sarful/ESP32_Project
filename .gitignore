@@ -1,0 +1,39 @@
+# =========================
+# PlatformIO / VS Code
+# =========================
+.pio/
+.vscode/
+
+# PlatformIO build artifacts / cache
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Secrets (IMPORTANT)
+# =========================
+# If you ever add secrets files, ignore them
+secrets.h
+secrets.hpp
+.env
+*.pem
+*.key
+
+# =========================
+# Node / misc (if any)
+# =========================
+node_modules/

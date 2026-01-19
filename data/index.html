@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ESP32 Web Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h1>ESP32 Chat</h1>
+        <span>Local Network</span>
+      </header>
+
+      <main id="chatBox">
+        <p class="status">Connecting to ESP32…</p>
+      </main>
+
+      <footer>
+        <input type="text" id="message" placeholder="Type a message…" />
+        <button onclick="sendMessage()">Send</button>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
